@@ -7,19 +7,21 @@ body{
   font-family: 'Times New Roman', Times, serif;
 }
 
-.first{
-  /* background-image:url(/assets/images/Web-Development.png); */
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 200px;
-  width: 100%;
-  border-top-left-radius: 50px;
-  margin-top: 0px;
-  margin-right: 0px;
+/*background-image:url(/assets/images/Web-Development.png); */
+.first{ 
+  height: 250px;
 }
 
-/* second section of the page */
+.webpicture{
+  border-top-left-radius: 50px;
+  width: 100%;
+  height: 300px;
+}
 
+/*second section of the page */
+.second{
+  height: 500px;
+}
 /* profile picture */
  .mainpicture {
   border-radius: 800px;
@@ -49,8 +51,7 @@ p{
 
 /* third section */
 .third {
-  justify-content: space-between;
-  align-self: center;
+ align-self: center;
 }
 
 /* social meadia pctures */
@@ -60,6 +61,14 @@ p{
   box-shadow: 0 0 20px black;
   border-radius: 100px;
   margin-right: 20px;
+}
+
+.socialMediaImg:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 10px white;
+}
+.socialMediaImg:active{
+  opacity: 30%;
 }
 
 /* Fourth Section */
@@ -75,7 +84,6 @@ h3{
   font-size: 17px;
 }
 
-
 .author{
   text-align: right;
   margin-bottom: 0px;
@@ -90,6 +98,9 @@ h3{
   background-color: rgb(63, 62, 62)
 }
 
+menu{
+  padding-left: 0px;
+}
 /* skills */
 h4{
   text-align: center;
@@ -98,28 +109,34 @@ h4{
 }
 
 .experience{
-  text-align: center;
-  background-color: rgb(68, 67, 67)
-  margin-top: 0px;
-  padding-left: 0px;
+ text-align: center;
+ padding-left: 0px;
+ margin-bottom: 0px;
 }
 
 .experienceicons {
   margin-top: 0px;
   margin-left: 0px;
   padding-left: 0px;
+  margin-right: 5px;
   height: 50px;
   width: 50px;
 }
-
+.experienceicons:hover{
+  transform: scale(1.3);
+  box-shadow: 0 0 20px white;
+  border-radius: 10px;
+}
+.experienceicons:active{
+  opacity: 30%;
+}
 
 /* Footer */
- 
 footer{
   justify-self: start;
   height: 170px;
+  margin-bottom: 0px;
   border-bottom-left-radius: 50px;
-  margin-top:35px;
   background-color:rgb(49, 48, 48)
 }
 
